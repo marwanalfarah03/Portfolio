@@ -1,0 +1,15 @@
+green
+yellow
+blue
+orange
+red
+black
+white
+gray
+brown
+purple
+indigo
+violet
+pink
+silver
+gold

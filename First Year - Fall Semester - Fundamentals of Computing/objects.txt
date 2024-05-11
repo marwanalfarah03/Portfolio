@@ -1,0 +1,15 @@
+fridge
+laptop
+table
+yoyo
+chair
+car
+bus
+train
+library
+map
+desk
+card
+bowl
+bottle
+bulb
