@@ -1,0 +1,146 @@
+Task 1
+# Create user 'karam' and set a strong password
+sudo adduser karam
+
+# Create user 'jane' with heightened security configurations
+sudo adduser jane
+
+# Apply additional security settings as required
+# Set the password to expire every 90 days
+sudo chage -M 90 jane
+# Force password change on the first login
+sudo chage -d 0 jane
+
+
+Task 2
+# Create a new group 'TechTeam'
+sudo groupadd TechTeam
+
+# Add 'karam' and 'jane' to 'TechTeam'
+sudo usermod -aG TechTeam karam
+sudo usermod -aG TechTeam jane
+
+# Verify the Group Membership
+groups karam jane
+
+
+Task 3
+# Create a directory for the project
+sudo mkdir /project_files
+
+# Change to the directory
+cd /project_files
+
+# Create File1.txt and File2.txt
+sudo touch File1.txt File2.txt
+
+# Verify the Creation of the Directory and Files
+ls -l /project_files
+ls -ld /project_files
+
+
+Not a Task, but necessary steps to correctly illustrate further tasks
+# Change file permissions within directory (users: all permissions, group: all permissions, others: all permissions)
+sudo chmod -R 777 /project_files/.
+
+# Write to the text files
+sudo echo "Hello World!" >> /project_files/File1.txt
+sudo echo "Hi Again!" >> /project_files/File2.txt
+
+# Create and compile an executable file
+nano /project_files/test.c
+gcc test.c -o test
+
+# Return the original permissions
+sudo chmod -R 644 /project_files/.
+sudo chmod 755 /project_files
+
+# Verify the Creation of the Directory and Files
+ls -l /project_files
+ls -ld /project_files
+
+Task 4
+# Change group ownership of the directory and its contents to 'TechTeam'
+sudo chgrp -R TechTeam /project_files
+
+# Verify the group ownership
+ls -l /project_files
+ls -ld /project_files
+
+
+Task 5
+# Change file permissions within directory (users: read and write, group: read-only, others: no permission)
+sudo chmod -R 640 /project_files/.
+
+# Change directory permissions (user: full control, group: execute only, others: execute only)
+sudo chmod 711 /project_files
+
+
+Task 6
+# Validate Permissions
+sudo ls -l /project_files
+ls -ld /project_files
+
+
+Task 7
+# Login as karam
+su - karam
+cd /project_files
+
+# Check Execute Permission for Directory
+ls -ld /project_files
+
+# Check Write Permission for Directory
+touch /project_files/newfile.txt
+
+# Check Read Permission for Directory
+ls /project_files
+
+
+# Check Execute Permission for File
+./test
+
+# Check Write Permission for File
+echo "Hello Again!" >> /project_files/File1.txt
+
+# Check Read Permission for File
+cat /project_files/File1.txt
+
+
+Task 8
+touch /project_files/secrets.txt
+chgrp TechTeam /project_files/secrets.txt
+chmod 770 /project_files/secrets.txt
+nano /projects_files/secrets.txt
+ls -l /project_files
+su - marwan
+
+# Add yourself to the TechTeam group temporarily
+sudo gpasswd -a marwan TechTeam
+
+# Access the secret file
+cat /project_files/secret.txt
+
+# Remove yourself from the TechTeam group
+sudo gpasswd -d marwan TechTeam
+
+
+Task 9
+# Set the sticky bit on the directory to prevent users from deleting others' files
+sudo chmod +t /project_files
+
+
+Task 10
+# Remove users 'karam' and 'jane'
+sudo userdel -r karam
+sudo userdel -r jane
+
+
+
+
+
+
+sudo groupdel TechTeam
+sudo rm -rf /project_files
+
+

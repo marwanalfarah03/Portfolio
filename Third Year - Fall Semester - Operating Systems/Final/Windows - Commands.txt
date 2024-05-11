@@ -1,0 +1,47 @@
+Part 1
+1. Create users:
+net user karam * /add
+net user jane * /add
+net user jane [password]
+net user jane /expires:never /passwordchg:yes /maxpwage:90
+
+Part 2
+1. Create the group 'TechTeam':
+net localgroup TechTeam /add
+
+2. Add users to the group:
+net localgroup TechTeam karam /add
+net localgroup TechTeam jane /add
+
+
+Part 3
+1. Create directory 'project_files':
+mkdir C:\project_files
+
+2. Change directory:
+cd C:\project_files
+
+3. Create files:
+echo. > File1.txt
+echo. > File2.txt
+
+
+Part 4
+1. Change group ownership:
+icacls C:\project_files /setowner "TechTeam" /T
+
+
+Part 5
+1. Grant full control to users:
+icacls C:\project_files /grant Users:(F) /T
+
+2. Restrict groups and others to execute only:
+icacls C:\project_files /grant "everyone":(X)
+icacls C:\project_files /grant "TechTeam":(X)
+
+
+3. Set specific permissions for files within the directory:
+icacls C:\project_files\* /remove "everyone" /T
+icacls C:\project_files\* /grant "TechTeam":(R) /T
+icacls C:\project_files\* /grant Users:(R,W) /T
+

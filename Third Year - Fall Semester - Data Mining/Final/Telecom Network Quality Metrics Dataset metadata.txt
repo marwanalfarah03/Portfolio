@@ -1,0 +1,57 @@
+ClientID: A unique numeric code assigned to each client in the dataset for identification purposes.
+
+SignalStrength_Mean: The average signal strength received by the client’s device, indicative of the quality of network connection.
+
+DataUsage_Mean: Average amount of data used by the client in a given period, reflecting their data consumption habits.
+
+CallDuration_Mean: Average duration of phone calls made by the client, indicating usage patterns and network efficiency.
+
+NetworkCoverage_Mean: Reflects the average network coverage experienced by the client, a key factor in service quality.
+
+ConnectionSpeed_Mean: The mean speed at which the client's device connects to the network, crucial for browsing and streaming.
+
+NetworkLoad_Mean: Average load on the network due to the client's activities, affecting overall network performance.
+
+DropRate_Mean: Mean rate at which calls are dropped, an important indicator of network reliability.
+
+Latency_Mean: Average time delay in data transmission, a critical aspect of network responsiveness.
+
+ServiceInterruptions_Mean: Average number of service interruptions experienced by the client, reflecting network consistency.
+
+SignalStrength_SE: Standard error of signal strength, indicating variability in signal quality.
+
+DataUsage_SE: Standard error in data usage, showing consistency in the client's data consumption.
+
+CallDuration_SE: Standard error in call duration, reflecting consistency in call times.
+
+NetworkCoverage_SE: Standard error in network coverage, indicating variability in network availability.
+
+ConnectionSpeed_SE: Standard error in connection speed, showing fluctuation in connection quality.
+
+NetworkLoad_SE: Standard error in network load, indicating variation in the client’s network usage impact.
+
+DropRate_SE: Standard error in call drop rate, showing consistency in call reliability.
+
+Latency_SE: Standard error in latency, reflecting the stability of network responsiveness.
+
+ServiceInterruptions_SE: Standard error in the number of service interruptions, showing consistency in network performance.
+
+SignalStrength_Worst: The worst recorded signal strength for the client, indicating the lowest network connectivity.
+
+DataUsage_Worst: Maximum data used by the client in a given period, indicating peak usage.
+
+CallDuration_Worst: The longest duration of phone calls made by the client, showing maximum use.
+
+NetworkCoverage_Worst: The worst network coverage experienced by the client, indicating areas of poor service.
+
+ConnectionSpeed_Worst: The slowest recorded connection speed for the client, affecting browsing and streaming.
+
+NetworkLoad_Worst: The highest load on the network due to the client’s activities.
+
+DropRate_Worst: The highest rate of dropped calls experienced by the client, a key reliability issue.
+
+Latency_Worst: The maximum time delay in data transmission experienced by the client.
+
+ServiceInterruptions_Worst: The highest number of service interruptions experienced by the client.
+
+ServiceQuality: Categorical variable indicating the quality of service experienced by the client. 'High' represents good service quality, while 'Low' indicates poor service quality.
