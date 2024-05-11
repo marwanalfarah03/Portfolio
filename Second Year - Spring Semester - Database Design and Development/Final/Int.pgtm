@@ -1,0 +1,1289 @@
+<Project colorSchemeName="cerulean" copySystemFiles="true" edition="pro" generateModifiedDataOnly="true" localizationFileName="C:\Program Files (x86)\SQL Maestro Group\PHP Generator for MySQL Professional\lang.en.php" outputFilesExtension="php" outputPath="D:\Marwan\HTU\Second Year\Spring Semester\Database Design &amp; Development\Final\Interface" phpDriver="1" version="22.8.0.5">
+  <DataSources>
+    <DataSource name="patient_summary_view"/>
+    <DataSource name="doctor_patient"/>
+    <DataSource name="operating_room"/>
+    <DataSource name="patient"/>
+    <DataSource name="doctor_surgery_details_view"/>
+  </DataSources>
+  <Presentation disableMagicQuotesRuntime="false" showEnvironmentVariables="false" showExecutedQueries="false" showPHPErrorsAndWarnings="false">
+    <Pages>
+      <Page NavigatorPosition="3" addSeparator="false" caption="Patient Summary View" contentEncoding="UTF-8" copyAbilityMode="0" editAbilityMode="0" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="patient_summary_view" horizontalFilterCondition="" insertAbilityMode="0" multiEditAbility="0" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Patient Summary View" showKeyColumnsImagesInGridHeader="false" tableName="patient_summary_view" type="table" useActionImages="true" viewAbilityMode="0">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="First Name" fieldName="first_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Middle Name" fieldName="middle_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Last Name" fieldName="last_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Birth Date" fieldName="birth_date" selectedFilterOperators="2031871">
+            <ViewProperties dateTimeKind="1" type="dateTime"/>
+            <EditProperties dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0" type="dateTime"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Gender" fieldName="gender" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value caption="M" name="M"/>
+                <Value caption="F" name="F"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Phone Number" fieldName="phone_number" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="10" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Address" fieldName="address" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties maxLength="75" type="text"/>
+            <EditProperties columnCount="50" placeholder="" rowCount="8" type="textArea"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Age" fieldName="age" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Allergies" fieldName="allergies" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties maxLength="75" type="text"/>
+            <EditProperties columnCount="50" placeholder="" rowCount="8" type="textArea"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </List>
+          <View>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </View>
+          <Edit>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </Print>
+          <Export>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </Export>
+          <Compare>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+            <Column fieldName="age"/>
+            <Column fieldName="allergies"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+      </Page>
+      <Page NavigatorPosition="3" addSeparator="false" caption="Doctor Patient" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="doctor_patient" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Doctor Patient" showKeyColumnsImagesInGridHeader="false" tableName="doctor_patient" type="table" useActionImages="true">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1589247">
+            <Lookup displayFieldName="first_name" linkFieldName="patient_id" lookupFilter="" lookupOrdering="0" tableName="patient" useLookupOrdering="true"/>
+            <ViewProperties type="text"/>
+            <EditProperties type="dynamicCombobox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Doctor Id" fieldName="doctor_id" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Appointment Date" fieldName="appointment_date" selectedFilterOperators="2031871">
+            <ViewProperties dateTimeKind="1" type="dateTime"/>
+            <EditProperties dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0" type="dateTime"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Appointment Time" fieldName="appointment_time" selectedFilterOperators="1573119">
+            <ViewProperties dateTimeFormat="H:i:s" dateTimeKind="2" type="dateTime"/>
+            <EditProperties type="time"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </List>
+          <View>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </View>
+          <Edit>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </Print>
+          <Export>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </Export>
+          <Compare>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="appointment_date"/>
+            <Column fieldName="appointment_time"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="patient_id" visible="false"/>
+            <Column fieldName="doctor_id" visible="false"/>
+            <Column fieldName="appointment_date" visible="false"/>
+            <Column fieldName="appointment_time"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+      </Page>
+      <Page NavigatorPosition="3" addSeparator="false" caption="Operating Room" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="operating_room" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Operating Room" showKeyColumnsImagesInGridHeader="false" tableName="operating_room" type="table" useActionImages="true">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation caption="Operating Room Id" fieldName="operating_room_id" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Room Number" fieldName="room_number" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="4" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Room Type" fieldName="room_type" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Capacity" fieldName="capacity" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="operating_room_id"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </List>
+          <View>
+            <Column fieldName="operating_room_id"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </View>
+          <Edit>
+            <Column fieldName="operating_room_id" visible="false"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="operating_room_id" visible="false"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="operating_room_id"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="operating_room_id"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="operating_room_id"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </Print>
+          <Export>
+            <Column fieldName="operating_room_id"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </Export>
+          <Compare>
+            <Column fieldName="operating_room_id" visible="false"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="operating_room_id" visible="false"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+            <Column fieldName="capacity"/>
+          </MultiEdit>
+        </Columns>
+        <Details>
+          <Detail caption="Or Bed">
+            <Page NavigatorPosition="3" addSeparator="false" caption="Or Bed" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="or_bed" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Or Bed" showKeyColumnsImagesInGridHeader="false" tableName="or_bed" type="table" useActionImages="true">
+              <BeforeGridText/>
+              <DetailedDescription/>
+              <ColumnPresentations>
+                <ColumnPresentation caption="Operating Room Id" fieldName="operating_room_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="room_number" linkFieldName="operating_room_id" lookupFilter="" lookupOrdering="0" tableName="operating_room" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Bed Size" fieldName="bed_size" selectedFilterOperators="1589247">
+                  <ViewProperties type="text"/>
+                  <EditProperties type="comboBox">
+                    <Values>
+                      <Value caption="S" name="S"/>
+                      <Value caption="M" name="M"/>
+                      <Value caption="L" name="L"/>
+                    </Values>
+                  </EditProperties>
+                </ColumnPresentation>
+                <ColumnPresentation canSetNull="true" caption="Maximum Weight" fieldName="maximum_weight" selectedFilterOperators="1573119" showColumnFilter="false">
+                  <ViewProperties type="text">
+                    <Format thousandSeparator="," type="number"/>
+                  </ViewProperties>
+                  <EditProperties maxLength="0" type="textBox"/>
+                </ColumnPresentation>
+              </ColumnPresentations>
+              <Columns>
+                <List>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </List>
+                <View>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </View>
+                <Edit>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </Edit>
+                <Insert>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </Insert>
+                <QuickFilter>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </QuickFilter>
+                <FilterBuilder>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </FilterBuilder>
+                <Print>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </Print>
+                <Export>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </Export>
+                <Compare>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </Compare>
+                <MultiEdit>
+                  <Column fieldName="operating_room_id" visible="false"/>
+                  <Column fieldName="bed_size"/>
+                  <Column fieldName="maximum_weight"/>
+                </MultiEdit>
+              </Columns>
+              <Details/>
+            </Page>
+            <MasterForeignKeyColumnMap>
+              <FieldMap foreginColumnName="operating_room_id" masterColumnName="operating_room_id"/>
+            </MasterForeignKeyColumnMap>
+          </Detail>
+          <Detail caption="Or Equipment">
+            <Page NavigatorPosition="3" addSeparator="false" caption="Or Equipment" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="or_equipment" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Or Equipment" showKeyColumnsImagesInGridHeader="false" tableName="or_equipment" type="table" useActionImages="true">
+              <BeforeGridText/>
+              <DetailedDescription/>
+              <ColumnPresentations>
+                <ColumnPresentation caption="Operating Room Id" fieldName="operating_room_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="room_number" linkFieldName="operating_room_id" lookupFilter="" lookupOrdering="0" tableName="operating_room" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Equipment" fieldName="equipment" selectedFilterOperators="1589247" showColumnFilter="false">
+                  <ViewProperties maxLength="75" type="text"/>
+                  <EditProperties maxLength="100" type="textBox"/>
+                </ColumnPresentation>
+              </ColumnPresentations>
+              <Columns>
+                <List>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </List>
+                <View>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </View>
+                <Edit>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </Edit>
+                <Insert>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </Insert>
+                <QuickFilter>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </QuickFilter>
+                <FilterBuilder>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </FilterBuilder>
+                <Print>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </Print>
+                <Export>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </Export>
+                <Compare>
+                  <Column fieldName="operating_room_id"/>
+                  <Column fieldName="equipment"/>
+                </Compare>
+                <MultiEdit>
+                  <Column fieldName="operating_room_id" visible="false"/>
+                  <Column fieldName="equipment" visible="false"/>
+                </MultiEdit>
+              </Columns>
+              <Details/>
+            </Page>
+            <MasterForeignKeyColumnMap>
+              <FieldMap foreginColumnName="operating_room_id" masterColumnName="operating_room_id"/>
+            </MasterForeignKeyColumnMap>
+          </Detail>
+          <Detail caption="Surgery">
+            <Page NavigatorPosition="3" addSeparator="false" caption="Surgery" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="surgery" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Surgery" showKeyColumnsImagesInGridHeader="false" tableName="surgery" type="table" useActionImages="true">
+              <BeforeGridText/>
+              <DetailedDescription/>
+              <ColumnPresentations>
+                <ColumnPresentation caption="Surgery Id" fieldName="surgery_id" selectedFilterOperators="1573119" showColumnFilter="false">
+                  <ViewProperties type="text">
+                    <Format thousandSeparator="," type="number"/>
+                  </ViewProperties>
+                  <EditProperties maxLength="0" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation canSetNull="true" caption="Surgery Type" fieldName="surgery_type" selectedFilterOperators="1589247" showColumnFilter="false">
+                  <ViewProperties maxLength="75" type="text"/>
+                  <EditProperties maxLength="100" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Start Time" fieldName="start_time" selectedFilterOperators="2031871">
+                  <ViewProperties dateTimeFormat="Y-m-d H:i:s" type="dateTime"/>
+                  <EditProperties dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0" type="dateTime"/>
+                </ColumnPresentation>
+                <ColumnPresentation canSetNull="true" caption="End Time" fieldName="end_time" selectedFilterOperators="2031871">
+                  <ViewProperties dateTimeFormat="Y-m-d H:i:s" type="dateTime"/>
+                  <EditProperties dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0" type="dateTime"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Doctor Id" fieldName="doctor_id" selectedFilterOperators="1573119" showColumnFilter="false">
+                  <ViewProperties type="text">
+                    <Format thousandSeparator="," type="number"/>
+                  </ViewProperties>
+                  <EditProperties maxLength="0" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="first_name" linkFieldName="patient_id" lookupFilter="" lookupOrdering="0" tableName="patient" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Operating Room Id" fieldName="operating_room_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="room_number" linkFieldName="operating_room_id" lookupFilter="" lookupOrdering="0" tableName="operating_room" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+              </ColumnPresentations>
+              <Columns>
+                <List>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </List>
+                <View>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </View>
+                <Edit>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Edit>
+                <Insert>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Insert>
+                <QuickFilter>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </QuickFilter>
+                <FilterBuilder>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </FilterBuilder>
+                <Print>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Print>
+                <Export>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Export>
+                <Compare>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Compare>
+                <MultiEdit>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </MultiEdit>
+              </Columns>
+              <Details/>
+            </Page>
+            <MasterForeignKeyColumnMap>
+              <FieldMap foreginColumnName="operating_room_id" masterColumnName="operating_room_id"/>
+            </MasterForeignKeyColumnMap>
+          </Detail>
+        </Details>
+      </Page>
+      <Page NavigatorPosition="3" addSeparator="false" caption="Patient" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="patient" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Patient" showKeyColumnsImagesInGridHeader="false" tableName="patient" type="table" useActionImages="true">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="First Name" fieldName="first_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Middle Name" fieldName="middle_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Last Name" fieldName="last_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Birth Date" fieldName="birth_date" selectedFilterOperators="2031871">
+            <ViewProperties dateTimeKind="1" type="dateTime"/>
+            <EditProperties dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0" type="dateTime"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Gender" fieldName="gender" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value caption="M" name="M"/>
+                <Value caption="F" name="F"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Phone Number" fieldName="phone_number" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="10" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Address" fieldName="address" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties maxLength="75" type="text"/>
+            <EditProperties columnCount="50" placeholder="" rowCount="8" type="textArea"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </List>
+          <View>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </View>
+          <Edit>
+            <Column fieldName="patient_id" visible="false"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="patient_id" visible="false"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </Print>
+          <Export>
+            <Column fieldName="patient_id"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </Export>
+          <Compare>
+            <Column fieldName="patient_id" visible="false"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="patient_id" visible="false"/>
+            <Column fieldName="first_name"/>
+            <Column fieldName="middle_name"/>
+            <Column fieldName="last_name"/>
+            <Column fieldName="birth_date"/>
+            <Column fieldName="gender"/>
+            <Column fieldName="phone_number"/>
+            <Column fieldName="address"/>
+          </MultiEdit>
+        </Columns>
+        <Details>
+          <Detail caption="Doctor Patient">
+            <Page NavigatorPosition="3" addSeparator="false" caption="Doctor Patient" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="doctor_patient" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Doctor Patient" showKeyColumnsImagesInGridHeader="false" tableName="doctor_patient" type="table" useActionImages="true">
+              <BeforeGridText/>
+              <DetailedDescription/>
+              <ColumnPresentations>
+                <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="first_name" linkFieldName="patient_id" lookupFilter="" lookupOrdering="0" tableName="patient" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Doctor Id" fieldName="doctor_id" selectedFilterOperators="1573119" showColumnFilter="false">
+                  <ViewProperties type="text">
+                    <Format thousandSeparator="," type="number"/>
+                  </ViewProperties>
+                  <EditProperties maxLength="0" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Appointment Date" fieldName="appointment_date" selectedFilterOperators="2031871">
+                  <ViewProperties dateTimeKind="1" type="dateTime"/>
+                  <EditProperties dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0" type="dateTime"/>
+                </ColumnPresentation>
+                <ColumnPresentation canSetNull="true" caption="Appointment Time" fieldName="appointment_time" selectedFilterOperators="1573119">
+                  <ViewProperties dateTimeFormat="H:i:s" dateTimeKind="2" type="dateTime"/>
+                  <EditProperties type="time"/>
+                </ColumnPresentation>
+              </ColumnPresentations>
+              <Columns>
+                <List>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </List>
+                <View>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </View>
+                <Edit>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </Edit>
+                <Insert>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </Insert>
+                <QuickFilter>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </QuickFilter>
+                <FilterBuilder>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </FilterBuilder>
+                <Print>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </Print>
+                <Export>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </Export>
+                <Compare>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="appointment_date"/>
+                  <Column fieldName="appointment_time"/>
+                </Compare>
+                <MultiEdit>
+                  <Column fieldName="patient_id" visible="false"/>
+                  <Column fieldName="doctor_id" visible="false"/>
+                  <Column fieldName="appointment_date" visible="false"/>
+                  <Column fieldName="appointment_time"/>
+                </MultiEdit>
+              </Columns>
+              <Details/>
+            </Page>
+            <MasterForeignKeyColumnMap>
+              <FieldMap foreginColumnName="patient_id" masterColumnName="patient_id"/>
+            </MasterForeignKeyColumnMap>
+          </Detail>
+          <Detail caption="Patient Allergies">
+            <Page NavigatorPosition="3" addSeparator="false" caption="Patient Allergies" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="patient_allergies" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Patient Allergies" showKeyColumnsImagesInGridHeader="false" tableName="patient_allergies" type="table" useActionImages="true">
+              <BeforeGridText/>
+              <DetailedDescription/>
+              <ColumnPresentations>
+                <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="first_name" linkFieldName="patient_id" lookupFilter="" lookupOrdering="0" tableName="patient" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Allergy" fieldName="allergy" selectedFilterOperators="1589247" showColumnFilter="false">
+                  <ViewProperties maxLength="75" type="text"/>
+                  <EditProperties maxLength="100" type="textBox"/>
+                </ColumnPresentation>
+              </ColumnPresentations>
+              <Columns>
+                <List>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </List>
+                <View>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </View>
+                <Edit>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </Edit>
+                <Insert>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </Insert>
+                <QuickFilter>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </QuickFilter>
+                <FilterBuilder>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </FilterBuilder>
+                <Print>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </Print>
+                <Export>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </Export>
+                <Compare>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="allergy"/>
+                </Compare>
+                <MultiEdit>
+                  <Column fieldName="patient_id" visible="false"/>
+                  <Column fieldName="allergy" visible="false"/>
+                </MultiEdit>
+              </Columns>
+              <Details/>
+            </Page>
+            <MasterForeignKeyColumnMap>
+              <FieldMap foreginColumnName="patient_id" masterColumnName="patient_id"/>
+            </MasterForeignKeyColumnMap>
+          </Detail>
+          <Detail caption="Surgery">
+            <Page NavigatorPosition="3" addSeparator="false" caption="Surgery" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="surgery" horizontalFilterCondition="" insertAbilityMode="1" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Surgery" showKeyColumnsImagesInGridHeader="false" tableName="surgery" type="table" useActionImages="true">
+              <BeforeGridText/>
+              <DetailedDescription/>
+              <ColumnPresentations>
+                <ColumnPresentation caption="Surgery Id" fieldName="surgery_id" selectedFilterOperators="1573119" showColumnFilter="false">
+                  <ViewProperties type="text">
+                    <Format thousandSeparator="," type="number"/>
+                  </ViewProperties>
+                  <EditProperties maxLength="0" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation canSetNull="true" caption="Surgery Type" fieldName="surgery_type" selectedFilterOperators="1589247" showColumnFilter="false">
+                  <ViewProperties maxLength="75" type="text"/>
+                  <EditProperties maxLength="100" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Start Time" fieldName="start_time" selectedFilterOperators="2031871">
+                  <ViewProperties dateTimeFormat="Y-m-d H:i:s" type="dateTime"/>
+                  <EditProperties dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0" type="dateTime"/>
+                </ColumnPresentation>
+                <ColumnPresentation canSetNull="true" caption="End Time" fieldName="end_time" selectedFilterOperators="2031871">
+                  <ViewProperties dateTimeFormat="Y-m-d H:i:s" type="dateTime"/>
+                  <EditProperties dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0" type="dateTime"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Doctor Id" fieldName="doctor_id" selectedFilterOperators="1573119" showColumnFilter="false">
+                  <ViewProperties type="text">
+                    <Format thousandSeparator="," type="number"/>
+                  </ViewProperties>
+                  <EditProperties maxLength="0" type="textBox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Patient Id" fieldName="patient_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="first_name" linkFieldName="patient_id" lookupFilter="" lookupOrdering="0" tableName="patient" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+                <ColumnPresentation caption="Operating Room Id" fieldName="operating_room_id" selectedFilterOperators="1589247">
+                  <Lookup displayFieldName="room_number" linkFieldName="operating_room_id" lookupFilter="" lookupOrdering="0" tableName="operating_room" useLookupOrdering="true"/>
+                  <ViewProperties type="text"/>
+                  <EditProperties type="dynamicCombobox"/>
+                </ColumnPresentation>
+              </ColumnPresentations>
+              <Columns>
+                <List>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </List>
+                <View>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </View>
+                <Edit>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Edit>
+                <Insert>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Insert>
+                <QuickFilter>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </QuickFilter>
+                <FilterBuilder>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </FilterBuilder>
+                <Print>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Print>
+                <Export>
+                  <Column fieldName="surgery_id"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Export>
+                <Compare>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </Compare>
+                <MultiEdit>
+                  <Column fieldName="surgery_id" visible="false"/>
+                  <Column fieldName="surgery_type"/>
+                  <Column fieldName="start_time"/>
+                  <Column fieldName="end_time"/>
+                  <Column fieldName="doctor_id"/>
+                  <Column fieldName="patient_id"/>
+                  <Column fieldName="operating_room_id"/>
+                </MultiEdit>
+              </Columns>
+              <Details/>
+            </Page>
+            <MasterForeignKeyColumnMap>
+              <FieldMap foreginColumnName="patient_id" masterColumnName="patient_id"/>
+            </MasterForeignKeyColumnMap>
+          </Detail>
+        </Details>
+      </Page>
+      <Page NavigatorPosition="3" addSeparator="false" caption="Doctor Surgery Details View" contentEncoding="UTF-8" copyAbilityMode="0" editAbilityMode="0" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" fileName="doctor_surgery_details_view" horizontalFilterCondition="" insertAbilityMode="0" multiEditAbility="0" numberByDataSource="0" printAvailable="13" recordsPerPage="20" shortCaption="Doctor Surgery Details View" showKeyColumnsImagesInGridHeader="false" tableName="doctor_surgery_details_view" type="table" useActionImages="true" viewAbilityMode="0">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation caption="Doctor Id" fieldName="doctor_id" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Surgery Id" fieldName="surgery_id" selectedFilterOperators="1573119" showColumnFilter="false">
+            <ViewProperties type="text">
+              <Format thousandSeparator="," type="number"/>
+            </ViewProperties>
+            <EditProperties maxLength="0" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Surgery Type" fieldName="surgery_type" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties maxLength="75" type="text"/>
+            <EditProperties maxLength="100" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Start Time" fieldName="start_time" selectedFilterOperators="2031871">
+            <ViewProperties dateTimeFormat="Y-m-d H:i:s" type="dateTime"/>
+            <EditProperties dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0" type="dateTime"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="End Time" fieldName="end_time" selectedFilterOperators="2031871">
+            <ViewProperties dateTimeFormat="Y-m-d H:i:s" type="dateTime"/>
+            <EditProperties dateTimeFormat="Y-m-d H:i:s" firstDayOfWeek="0" type="dateTime"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Patient First Name" fieldName="patient_first_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Patient Last Name" fieldName="patient_last_name" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation caption="Room Number" fieldName="room_number" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="4" type="textBox"/>
+          </ColumnPresentation>
+          <ColumnPresentation canSetNull="true" caption="Room Type" fieldName="room_type" selectedFilterOperators="1589247" showColumnFilter="false">
+            <ViewProperties type="text"/>
+            <EditProperties maxLength="50" type="textBox"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </List>
+          <View>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </View>
+          <Edit>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </Print>
+          <Export>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </Export>
+          <Compare>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="doctor_id"/>
+            <Column fieldName="surgery_id"/>
+            <Column fieldName="surgery_type"/>
+            <Column fieldName="start_time"/>
+            <Column fieldName="end_time"/>
+            <Column fieldName="patient_first_name"/>
+            <Column fieldName="patient_last_name"/>
+            <Column fieldName="room_number"/>
+            <Column fieldName="room_type"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+      </Page>
+    </Pages>
+    <UserAuthorization/>
+    <UserGrants/>
+    <Header>
+&lt;div class=&quot;alert alert-danger SQLGeneratorEvaluationVersion&quot;&gt;&lt;h3 class=&quot;SQLGeneratorEvaluationVersion-head&quot;&gt;This website was created by evaluation version of &lt;a href=&quot;http://www.sqlmaestro.com/products/mysql/phpgenerator/&quot; class=&quot;alert-link&quot;&gt;PHP Generator for MySQL Professional&lt;/a&gt;.&lt;/h3&gt;&lt;img class=&quot;SQLGeneratorEvaluationVersion-justify&quot; src=&quot;components/assets/img/btn-loading.png&quot;&gt;&lt;/div&gt;    </Header>
+    <Footer>
+&lt;p align=&quot;right&quot;&gt;(C) &lt;span&gt;2002-&lt;script type=&quot;text/javascript&quot;&gt;document.write(new Date().getFullYear().toString())&lt;/script&gt;&lt;/span&gt;&lt;a href=&quot;http://www.sqlmaestro.com/products/mysql/phpgenerator/&quot;&gt; SQL Maestro Group&lt;/a&gt;.&lt;/p&gt;    </Footer>
+    <PHPOptions/>
+    <Groups>
+      <Group caption="No group"/>
+    </Groups>
+    <outgoingMailSettings fromEmail="" fromName="" mailer="0"/>
+  </Presentation>
+  <UserCSS/>
+  <PdfUserStyles/>
+  <PrintUserStyles/>
+  <UserJS/>
+  <ExcludedPaths/>
+  <DefaultPageProperties NavigatorPosition="3" contentEncoding="UTF-8" deleteAbilityMode="3" deleteSelectedAbilityMode="3" exportAllRecordsAvailable="31" exportRecordFromViewFormAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" insertAbilityMode="1" printAvailable="13" recordsPerPage="20" showKeyColumnsImagesInGridHeader="false" useActionImages="true"/>
+  <DefaultDataFormats DateFormat="Y-m-d" DateTimeFormat="Y-m-d H:i:s" DecimalSeparator="." ThousandSeparator="," firstDayOfWeek="0" numberAfterDecimal="4"/>
+  <ConnectionOptions host="localhost" port="3306" login="doctors" password="Z/GKZ^_WZOP~" database="ihdb" client_encoding="utf8" allow_old_password="false">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ConnectionOptions>
+  <ScriptConnectionOptions host="localhost" port="3306" login="doctors" password="Z/GKZ^_WZOP~" database="ihdb" client_encoding="utf8" allow_old_password="false">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ScriptConnectionOptions>
+</Project>
